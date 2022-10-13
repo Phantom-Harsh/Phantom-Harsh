@@ -4,19 +4,17 @@
     box-sizing: border-box;
 }
 body{ 
-    background-color: rgb(182, 232, 89);
+    background:black;
 }
 nav{text-align: center;
     width: 100%;
     min-height: 100px;
-    background-color: rgb(11, 45, 217);
+    background-color: #50394c;
     font-size: 3rem;
     padding: 0 3rem;
 }
 nav .header{
-    /* color: rgb(173, 247, 98); */
-    /* --deep-dive-btn-ease: cubic-bezier(0.47,0.01,0.4,0.99); */
-    background: linear-gradient(45deg, red, blue);
+    color:#ffef96;    
     text-align: center;
 }
 .box{
@@ -28,7 +26,7 @@ nav .header{
 }
 form{
     width: 400px;
-    background-color: #defc84;
+    background:  #ffef96;
     padding: 2rem 2rem;
     box-shadow: 0px 0px 10px #000 ;
     border-radius: 20px;
@@ -41,11 +39,12 @@ input{
     letter-spacing: 1px;
     border: 0;
     background-color: transparent;
-    outline: none;
+    outline: black;
 }
 
 .formNotes label{
     font-size: 1.5rem;
+    background: #ffef96;
     font-weight: 600;
     letter-spacing: 1px;
     padding-bottom: 7px;
@@ -55,7 +54,7 @@ input{
     height: 35px;
     border-radius: 5px;
     box-shadow: 0 0 5px #000;
-    background-color: #fff;
+    background-color:#b2b2b2;
     font-size: 20px;
     margin-right: auto;
     cursor: pointer;
@@ -69,7 +68,7 @@ input{
     justify-content: flex-start;
 }
 .card{
-    background: #fff;
+    background:#ffef96;
     padding: 1rem 1.5rem 1rem;
     width: 32rem;
     border-radius: 5px;
